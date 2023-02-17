@@ -1,0 +1,92 @@
+2021-05-31 14:29:40.563 [TID: N/A] [main] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [com.github.danielwegener.logback.kafka.KafkaAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.github.danielwegener.logback.kafka.KafkaAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@42:93 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.github.danielwegener.logback.kafka.KafkaAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.liuhy.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:19)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [com.github.danielwegener.logback.kafka.KafkaAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.github.danielwegener.logback.kafka.KafkaAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@42:93 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.github.danielwegener.logback.kafka.KafkaAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [kafka]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+2021-05-31 14:31:59.925 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-05-31 14:31:59.930 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 8212 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-05-31 14:31:59.930 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-05-31 14:32:00.698 [TID: N/A] [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-31 14:32:00.715 [TID: N/A] [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-05-31 14:32:01.173 [TID: N/A] [main] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-05-31 14:32:01.178 [TID: N/A] [main] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-05-31 14:32:01.182 [TID: N/A] [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-05-31 14:32:01.208 [TID: N/A] [main] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-05-31 14:32:01.250 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.714 seconds (JVM running for 2.535)
+2021-05-31 14:32:10.499 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-31 14:32:10.530 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-05-31 14:32:10.958 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-05-31 14:32:10.963 [TID: N/A] [XNIO-1 task-1] DEBUG c.l.t.w.a.user.dao.UserMapper.query -==>  Preparing: SELECT * FROM wx_user
+2021-05-31 14:32:10.978 [TID: N/A] [XNIO-1 task-1] DEBUG c.l.t.w.a.user.dao.UserMapper.query -==> Parameters: 
+2021-05-31 14:32:11.032 [TID: N/A] [XNIO-1 task-1] DEBUG c.l.t.w.a.user.dao.UserMapper.query -<==      Total: 1
+2021-05-31 14:36:01.359 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-05-31 14:36:01.362 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3800 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-05-31 14:36:01.363 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-05-31 14:36:02.048 [TID: N/A] [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-31 14:36:02.060 [TID: N/A] [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-05-31 14:36:02.483 [TID: N/A] [main] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-05-31 14:36:02.487 [TID: N/A] [main] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-05-31 14:36:02.491 [TID: N/A] [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-05-31 14:36:02.513 [TID: N/A] [main] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-05-31 14:36:02.553 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.573 seconds (JVM running for 2.321)
+2021-05-31 14:36:20.282 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-05-31 14:36:20.287 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3008 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-05-31 14:36:20.287 [TID: N/A] [main] DEBUG c.l.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-31 14:36:20.287 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-05-31 14:36:20.947 [TID: N/A] [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-31 14:36:20.960 [TID: N/A] [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-05-31 14:36:21.371 [TID: N/A] [main] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-05-31 14:36:21.375 [TID: N/A] [main] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-05-31 14:36:21.379 [TID: N/A] [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-05-31 14:36:21.401 [TID: N/A] [main] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-05-31 14:36:21.438 [TID: N/A] [main] INFO  c.l.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.515 seconds (JVM running for 2.255)
+2021-05-31 14:36:25.485 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-31 14:36:25.515 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-05-31 14:36:25.907 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-05-31 14:36:25.913 [TID: N/A] [XNIO-1 task-1] DEBUG c.l.t.w.a.user.dao.UserMapper.query -==>  Preparing: SELECT * FROM wx_user
+2021-05-31 14:36:25.926 [TID: N/A] [XNIO-1 task-1] DEBUG c.l.t.w.a.user.dao.UserMapper.query -==> Parameters: 
+2021-05-31 14:36:25.977 [TID: N/A] [XNIO-1 task-1] DEBUG c.l.t.w.a.user.dao.UserMapper.query -<==      Total: 1
+2021-05-31 15:08:26.617 [TID: N/A] [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m30s612ms788µs300ns).

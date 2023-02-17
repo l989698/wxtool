@@ -1,0 +1,602 @@
+2022-07-10 14:00:43.475 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 14:00:43.613 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 23168 (started by liuha in D:\project\wxToolProject)
+2022-07-10 14:00:43.614 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:00:43.614 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 14:00:47.233 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:00:47.273 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 4.367 seconds (JVM running for 5.835)
+2022-07-10 14:01:16.311 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7480 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:01:16.313 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:01:16.314 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:01:17.518 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:01:17.519 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:01:17.519 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:01:18.523 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:01:19.782 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.999 seconds (JVM running for 5.987)
+2022-07-10 14:05:35.662 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 6368 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:05:35.664 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:05:35.664 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:05:36.978 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:05:36.979 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:05:36.979 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:05:38.206 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:05:39.580 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.431 seconds (JVM running for 6.423)
+2022-07-10 14:08:50.682 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 8668 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:08:50.686 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:08:50.686 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:08:52.264 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:08:52.265 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:08:52.265 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:08:53.456 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:08:54.935 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.836 seconds (JVM running for 7.033)
+2022-07-10 14:10:04.255 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 17512 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:10:04.260 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:10:04.260 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:10:06.327 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:10:06.328 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:10:06.329 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:10:07.801 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:10:09.286 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 5.76 seconds (JVM running for 8.831)
+2022-07-10 14:12:00.058 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 14700 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:12:00.062 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:12:00.062 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:12:01.579 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:12:01.580 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:12:01.580 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:12:02.942 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:12:04.306 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.908 seconds (JVM running for 7.432)
+2022-07-10 14:15:44.827 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 14700 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:15:44.828 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:15:44.828 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:15:45.428 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:15:45.428 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:15:45.429 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:15:45.944 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:15:45.975 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.227 seconds (JVM running for 229.101)
+2022-07-10 14:15:51.230 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 14700 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:15:51.230 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:15:51.230 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:15:51.695 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:15:51.695 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:15:51.696 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:15:51.999 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:15:52.018 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.848 seconds (JVM running for 235.144)
+2022-07-10 14:16:08.371 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 14700 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:16:08.371 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:16:08.371 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:16:08.805 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:16:08.806 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:16:08.806 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:16:09.083 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:16:09.104 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.779 seconds (JVM running for 252.229)
+2022-07-10 14:16:13.860 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 14700 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:16:13.860 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:16:13.860 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:16:14.287 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:16:14.288 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:16:14.288 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:16:14.556 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:16:14.575 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.765 seconds (JVM running for 257.701)
+2022-07-10 14:16:37.406 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:16:37.410 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:16:37.410 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:16:38.978 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:16:38.978 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:16:38.979 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:16:40.266 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:16:41.848 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 5.088 seconds (JVM running for 7.33)
+2022-07-10 14:29:33.483 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:29:33.484 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:29:33.484 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:29:34.052 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:29:34.053 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:29:34.054 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:29:34.475 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:29:34.501 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.113 seconds (JVM running for 779.983)
+2022-07-10 14:29:38.878 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 14:29:38.878 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 14:29:38.878 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 14:29:39.329 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:29:39.329 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 14:29:39.330 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 14:29:39.610 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 14:29:39.632 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.813 seconds (JVM running for 785.114)
+2022-07-10 15:38:42.374 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:38:42.374 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:38:42.374 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:38:42.919 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:38:42.919 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:38:42.920 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:38:43.368 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:38:43.399 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.084 seconds (JVM running for 4928.882)
+2022-07-10 15:38:47.436 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:38:47.436 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:38:47.436 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:38:47.834 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:38:47.835 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:38:47.835 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:38:48.094 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:38:48.114 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.725 seconds (JVM running for 4933.597)
+2022-07-10 15:39:17.530 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:39:17.530 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:39:17.530 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:39:18.064 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:18.064 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:18.065 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:39:18.475 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:39:18.499 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.027 seconds (JVM running for 4963.981)
+2022-07-10 15:39:22.505 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:39:22.505 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:39:22.506 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:39:22.934 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:22.934 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:22.935 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:39:23.200 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:39:23.219 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.768 seconds (JVM running for 4968.702)
+2022-07-10 15:39:38.796 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:39:38.796 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:39:38.796 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:39:39.190 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:39.190 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:39.190 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:39:39.445 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:39:39.465 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.719 seconds (JVM running for 4984.948)
+2022-07-10 15:39:43.505 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:39:43.505 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:39:43.506 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:39:43.891 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:43.892 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:39:43.892 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:39:44.121 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:39:44.139 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.677 seconds (JVM running for 4989.622)
+2022-07-10 15:41:50.637 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 7056 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:41:50.637 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:41:50.637 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:41:51.110 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:41:51.111 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:41:51.111 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:41:51.325 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tikTokController': Unsatisfied dependency expressed through field 'tikTokService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.tool.wxtoolproject.api.tiktok.service.TikTokService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-10 15:41:51.362 [TID: N/A] [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tikTokService in com.tool.wxtoolproject.api.tiktok.controller.TikTokController required a bean of type 'com.tool.wxtoolproject.api.tiktok.service.TikTokService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tool.wxtoolproject.api.tiktok.service.TikTokService' in your configuration.
+
+2022-07-10 15:52:50.259 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2022-07-10 15:53:18.473 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:53:18.638 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 18160 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:53:18.639 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:53:18.640 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:53:23.616 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:53:23.654 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.94 seconds (JVM running for 7.612)
+2022-07-10 15:53:53.081 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:53:53.216 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 19984 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:53:53.216 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:53:53.217 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:53:58.134 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:53:58.162 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.818 seconds (JVM running for 7.347)
+2022-07-10 15:54:31.155 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:54:31.302 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 29692 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:54:31.302 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:54:31.303 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:54:35.927 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:54:35.959 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.539 seconds (JVM running for 7.148)
+2022-07-10 15:55:32.008 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:55:32.161 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 30080 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:55:32.161 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:55:32.162 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:55:36.769 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:55:36.799 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.577 seconds (JVM running for 7.253)
+2022-07-10 15:56:02.574 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:56:02.718 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 29068 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:56:02.719 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:56:02.719 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:56:07.542 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:56:07.578 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.823 seconds (JVM running for 7.409)
+2022-07-10 15:57:15.494 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2022-07-10 15:57:20.355 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:57:20.531 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 31344 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:57:20.532 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:57:20.532 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:57:26.245 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:57:26.284 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 6.733 seconds (JVM running for 8.825)
+2022-07-10 15:57:28.185 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 29196 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:57:28.189 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:57:28.189 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:57:30.046 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:57:30.047 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 15:57:30.048 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 15:57:31.792 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:57:33.300 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 6.104 seconds (JVM running for 10.344)
+2022-07-10 15:59:35.858 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 29196 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 15:59:35.858 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:59:35.858 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 15:59:36.205 [TID: N/A] [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.tool.wxtoolproject.api.user.dao]' package. Please check your configuration.
+2022-07-10 15:59:36.442 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ocrRecognitionController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tool.wxtoolproject.api.imgProcess.controller.OcrRecognitionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10fe3e91]
+2022-07-10 15:59:36.480 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ocrRecognitionController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tool.wxtoolproject.api.imgProcess.controller.OcrRecognitionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10fe3e91]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.tool.wxtoolproject.api.imgProcess.controller.OcrRecognitionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10fe3e91]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/tool/wxtoolproject/api/common/vo/Result
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.tool.wxtoolproject.api.common.vo.Result
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 common frames omitted
+2022-07-10 15:59:40.786 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2022-07-10 15:59:44.370 [TID: N/A] [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/tool/develop/Config/apache-maven/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-10 15:59:44.477 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on ����ҵĵ��� with PID 31556 (started by liuha in D:\project\wxToolProject)
+2022-07-10 15:59:44.478 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 15:59:44.478 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2022-07-10 15:59:48.560 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 15:59:48.601 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 4.749 seconds (JVM running for 5.963)
+2022-07-10 16:12:43.013 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2022-07-10 16:14:21.845 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2022-07-10 16:17:59.981 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 24944 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 16:17:59.984 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 16:17:59.984 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 16:18:01.959 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 16:18:01.960 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 16:18:01.961 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 16:18:03.580 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 16:18:05.206 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2022-07-10 16:18:05.270 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:243)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213)
+	... 21 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1075)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239)
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Keystore was tampered with, or password was incorrect
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:258)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1204)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1290)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:614)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1072)
+	... 25 common frames omitted
+Caused by: java.io.IOException: Keystore was tampered with, or password was incorrect
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:780)
+	at sun.security.provider.JavaKeyStore$JKS.engineLoad(JavaKeyStore.java:56)
+	at sun.security.provider.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:224)
+	at sun.security.provider.JavaKeyStore$DualFormatJKS.engineLoad(JavaKeyStore.java:70)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:69)
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:216)
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97)
+	... 31 common frames omitted
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:778)
+	... 41 common frames omitted
+2022-07-10 16:18:56.445 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 31620 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 16:18:56.448 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 16:18:56.448 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 16:18:58.048 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 16:18:58.048 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 16:18:58.049 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 16:18:59.449 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 16:19:01.252 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 5.381 seconds (JVM running for 7.682)
+2022-07-10 16:20:30.265 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 34208 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-10 16:20:30.268 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-10 16:20:30.268 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-10 16:20:31.812 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 16:20:31.812 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-10 16:20:31.813 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-10 16:20:33.132 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-10 16:20:34.612 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.944 seconds (JVM running for 7.06)

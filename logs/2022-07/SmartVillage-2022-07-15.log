@@ -1,0 +1,95 @@
+2022-07-15 07:58:09.055 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 1752 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-15 07:58:09.055 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-15 07:58:09.055 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-15 07:58:10.351 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-15 07:58:10.351 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-15 07:58:10.351 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-15 07:58:11.414 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-15 07:58:12.633 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.127 seconds (JVM running for 6.048)
+2022-07-15 08:05:11.507 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 1752 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-15 08:05:11.507 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-15 08:05:11.507 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-15 08:05:11.764 [TID: N/A] [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.tool.wxtoolproject.api.user.dao]' package. Please check your configuration.
+2022-07-15 08:05:11.952 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ocrRecognitionController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tool.wxtoolproject.api.imgProcess.controller.OcrRecognitionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@d971e59]
+2022-07-15 08:05:11.981 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ocrRecognitionController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tool.wxtoolproject.api.imgProcess.controller.OcrRecognitionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@d971e59]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.tool.wxtoolproject.api.imgProcess.controller.OcrRecognitionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@d971e59]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/tool/wxtoolproject/api/common/vo/Result
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.tool.wxtoolproject.api.common.vo.Result
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 common frames omitted
+2022-07-15 08:05:16.158 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted

@@ -1,0 +1,78 @@
+package com.tool.wxtoolproject.api.common.error.code;
+
+import com.github.pagehelper.util.StringUtil;
+import lombok.Getter;
+
+/**
+ * 基础公用错误码(错误代码统一规划，以10开头)
+ *
+ * @author ye17186
+ * @version 2019/2/18 15:49
+ */
+@Getter
+public enum BaseEnumError implements IEnumError {
+
+    // 登录相关
+    login_success("000", "登录成功"),
+    login_failure("001", "登录失败"),
+    TOKEN_IS_NULL("999", "token无效,重新登录"),
+    USER_NOT("901", "用户不存在"),
+
+    //系统相关的
+    SYS_ERR("999999", "系统升级中，请稍后再来"),
+    SYS_401("401", "401"),
+    SYS_ERR_404("404", "请求UTL错误，或请求方式不正确"),
+
+
+    SYSTEM_EXCEPTION("101", "系统异常，请联系管理员"),
+    SYSTEM_REQUEST_URL_NOT_FOUND("102", "请求地址不存在"),
+    SYSTEM_REQUEST_METHOD_NOT_SUPPORTED("103", "请求方法不支持"),
+    SYSTEM_ARGUMENT_NOT_VALID("104", "请求参数不合法"),
+    SYSTEM_TOKEN_INVALID_01("105", "非法请求"),
+    SYSTEM_TOKEN_INVALID_02("106", "非法请求"),
+    SYSTEM_TOKEN_INVALID_03("107", "非法请求"),
+    SYSTEM_TOKEN_INVALID_04("108", "非法请求"),
+    SYSTEM_TOKEN_INVALID_05("109", "非法请求"),
+    SYSTEM_ASYNC_RESULT_GET_EX("110", "获取异步结果异常"),
+    SYSTEM_ASYNC_RESULT_GET_TIMEOUT("111", "获取异步结果超时"),
+
+
+    SYSTEM_NO_LOGIN("201", "用户未登录"),
+    SERVICE_ERROR("202", "服务暂不可用，请稍后重试"),
+    SERVICE_DOWN("203", "服务[${serviceId}]暂不可用，请稍后重试");
+
+    /**
+     * 错误码
+     */
+    private  String code;
+
+    /**
+     * 错误信息
+     */
+    private  String msg;
+
+    BaseEnumError(String code, String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
+
+    /**
+     * @return
+     * @description: 根据key获取对应的value
+     */
+    public static String getValueByKey(String code) {
+        String value = null;
+
+        if (StringUtil.isEmpty(code)) {
+            return value;
+        }
+
+        for (BaseEnumError s : values()) {
+            if (s.getCode().equals(code)) {
+                value = s.getMsg();
+                break;
+            }
+        }
+        return value;
+    }
+}

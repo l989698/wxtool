@@ -1,0 +1,45 @@
+2021-07-29 11:38:43.623 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 65620 (started by liuha in D:\project\wxToolProject)
+2021-07-29 11:38:43.624 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 11:38:43.625 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 11:38:46.810 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 11:38:46.902 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.806 seconds (JVM running for 5.312)
+2021-07-29 14:55:46.359 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 47572 (started by liuha in D:\project\wxToolProject)
+2021-07-29 14:55:46.360 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 14:55:46.360 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 14:55:49.507 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 14:55:49.613 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.734 seconds (JVM running for 4.845)
+2021-07-29 14:57:41.849 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 63996 (started by liuha in D:\project\wxToolProject)
+2021-07-29 14:57:41.850 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 14:57:41.851 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 14:57:44.801 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 14:57:44.874 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.492 seconds (JVM running for 4.602)
+2021-07-29 14:58:41.309 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 62808 (started by liuha in D:\project\wxToolProject)
+2021-07-29 14:58:41.311 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 14:58:41.311 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 14:58:44.331 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 14:58:44.408 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.574 seconds (JVM running for 4.662)
+2021-07-29 14:58:59.817 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 66624 (started by liuha in D:\project\wxToolProject)
+2021-07-29 14:58:59.819 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 14:58:59.819 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 14:59:02.828 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 14:59:02.923 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.577 seconds (JVM running for 4.688)
+2021-07-29 14:59:22.216 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 66600 (started by liuha in D:\project\wxToolProject)
+2021-07-29 14:59:22.217 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 14:59:22.217 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 14:59:25.309 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 14:59:25.372 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.619 seconds (JVM running for 4.7)
+2021-07-29 15:00:24.895 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 53636 (started by liuha in D:\project\wxToolProject)
+2021-07-29 15:00:24.896 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 15:00:24.896 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 15:00:27.996 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 15:00:28.064 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.639 seconds (JVM running for 4.708)
+2021-07-29 15:01:00.911 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 60424 (started by liuha in D:\project\wxToolProject)
+2021-07-29 15:01:00.912 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 15:01:00.912 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 15:01:03.751 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 15:01:03.859 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.396 seconds (JVM running for 4.512)
+2021-07-29 15:35:57.575 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 27812 (started by liuha in D:\project\wxToolProject)
+2021-07-29 15:35:57.576 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-07-29 15:35:57.577 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-07-29 15:36:01.505 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-07-29 15:36:01.633 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 4.755 seconds (JVM running for 6.447)

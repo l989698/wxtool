@@ -1,0 +1,73 @@
+spring:
+  messages:
+    encoding: UTF-8
+  #mysql
+  datasource: # 数据库配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:25931/wxTool?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+    dbcp2:
+      initial-size: 10 #初始化提供的连接数
+      min-idle: 5 #数据库连接池的最小维持连接数
+      max-total: 10 #最大的连接数
+      max-wait-millis: 200 #等待连接获取的最大超时时间
+      validation-query: SELECT 1 FROM DUAL #验证链接sql
+#  kafka:
+#    bootstrap-servers: 82.156.0.45:9092
+#    producer:
+#      retries: 0
+#      acks: 1
+#      batch-size: 16384
+#      properties:
+#        linger:
+#          ms: 0
+#      buffer-memory: 33554432
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+    consumer:
+      properties:
+        group:
+          id: defaultConsumerGroup
+        request:
+          timeout:
+            ms: 180000
+        session:
+          timeout:
+            ms: 120000
+      enable-auto-commit: true
+      auto:
+        commit:
+          interval:
+            ms: 1000
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    listener:
+      missing-topics-fatal: false
+
+  #redis
+  redis:
+    host: localhost
+    port: 7852
+    password: pwd
+    pool:
+      max-active: 100
+      max-idle: 10
+      max-wait: 100000
+      min-idle: 0
+    timeout: 0
+
+log:
+  file: C:\logs\SmartVillage-Production.log
+  level: debug
+
+we-chat:
+  sessionHost: https://api.weixin.qq.com/sns/jscode2session
+  appId: wx2a6dc111f224f3e1
+  secret: 29622b80ea89dc13959fe3c2574dbed6
+  grantType: authorization_code
+
+
+

@@ -1,0 +1,6 @@
+2021-10-13 17:44:23.293 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on 刘昊岩的电脑 with PID 21828 (started by liuha in D:\project\wxToolProject)
+2021-10-13 17:44:23.294 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-10-13 17:44:23.295 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-10-13 17:44:23.459 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-10-13 17:44:27.832 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-10-13 17:44:28.035 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.265 seconds (JVM running for 6.421)

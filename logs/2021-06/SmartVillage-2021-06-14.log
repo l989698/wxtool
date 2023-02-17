@@ -1,0 +1,421 @@
+2021-06-14 08:04:33.329 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 11844 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:04:33.331 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:04:33.331 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:04:34.681 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:04:34.703 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:04:35.389 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:04:35.443 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:04:35.448 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:04:35.452 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:04:35.477 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:04:35.533 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.669 seconds (JVM running for 3.509)
+2021-06-14 08:14:51.815 [TID: N/A] [Thread-8] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-14 08:14:51.950 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 11844 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:14:51.951 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:14:51.951 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:14:52.260 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:14:52.261 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:14:52.436 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:14:52.447 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:14:52.471 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.558 seconds (JVM running for 620.447)
+2021-06-14 08:14:53.899 [TID: N/A] [Thread-10] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-14 08:14:54.039 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 11844 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:14:54.040 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:14:54.040 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:14:54.266 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:14:54.267 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:14:54.410 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:14:54.418 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:14:54.441 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.43 seconds (JVM running for 622.417)
+2021-06-14 08:15:34.818 [TID: N/A] [XNIO-3 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:16:07.310 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 12488 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:16:07.312 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:16:07.312 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:16:08.259 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:16:08.272 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:16:08.880 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:16:08.928 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:16:08.932 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:16:08.935 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:16:08.959 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:16:09.011 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.066 seconds (JVM running for 2.873)
+2021-06-14 08:16:30.987 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:17:21.289 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 20628 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:17:21.291 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:17:21.291 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:17:22.247 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:17:22.262 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:17:22.913 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:17:22.976 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:17:22.980 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:17:22.984 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:17:23.008 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:17:23.066 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.14 seconds (JVM running for 2.959)
+2021-06-14 08:17:30.687 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:17:58.718 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('å' (code 229)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('å' (code 229)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 2, column: 14]]
+2021-06-14 08:40:04.982 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 08:40:06.486 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 08:40:06.492 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:40:06.507 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:40:06.557 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:40:06.570 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 08:40:06.570 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: null, 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), null
+2021-06-14 08:40:06.637 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 0
+2021-06-14 08:40:06.658 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:40:44.508 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:40:44.509 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:40:44.542 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:40:44.544 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 08:40:44.544 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: null, 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), null
+2021-06-14 08:40:44.610 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 0
+2021-06-14 08:40:44.611 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:41:13.037 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 9528 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:41:13.039 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:41:13.039 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:41:13.994 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:41:14.007 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:41:14.623 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:41:14.680 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:41:14.684 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:41:14.688 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:41:14.715 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:41:14.774 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.101 seconds (JVM running for 3.128)
+2021-06-14 08:41:26.572 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:41:27.372 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 08:41:27.755 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 08:41:27.761 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:41:27.775 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:41:27.823 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:41:27.836 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 08:41:27.836 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: null, 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), null
+2021-06-14 08:41:27.898 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 0
+2021-06-14 08:41:27.919 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:42:15.880 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 15488 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:42:15.882 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:42:15.882 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:42:16.971 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:42:16.990 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:42:17.752 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:42:17.804 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:42:17.809 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:42:17.814 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:42:17.844 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:42:17.903 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.43 seconds (JVM running for 3.897)
+2021-06-14 08:42:51.289 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:42:52.340 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 08:42:52.739 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 08:42:52.746 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:42:52.768 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:42:52.822 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:42:52.840 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 08:42:52.840 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: null, 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), null
+2021-06-14 08:42:52.906 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 0
+2021-06-14 08:44:25.072 [TID: N/A] [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s222ms406µs400ns).
+2021-06-14 08:44:25.097 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:44:36.497 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:44:36.497 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:44:36.529 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:44:36.531 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 08:44:36.531 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: null, 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), null
+2021-06-14 08:44:36.595 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 0
+2021-06-14 08:44:36.597 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:45:04.862 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:45:04.863 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:45:04.900 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:48:51.390 [TID: N/A] [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m56s111ms142µs900ns).
+2021-06-14 08:48:51.422 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 08:48:51.423 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: null, 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), null
+2021-06-14 08:48:55.507 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 16580 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:48:55.509 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:48:55.509 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:48:56.601 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:48:56.619 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:48:57.366 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:48:57.433 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:48:57.438 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:48:57.443 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:48:57.477 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:48:57.541 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.474 seconds (JVM running for 3.386)
+2021-06-14 08:49:04.461 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:49:04.674 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:49:22.403 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:49:39.815 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:49:45.017 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:50:04.401 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:50:10.668 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 22740 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:50:10.671 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:50:10.672 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:50:11.795 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:50:11.814 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:50:12.579 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:50:12.644 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:50:12.649 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:50:12.654 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:50:12.683 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:50:12.749 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.536 seconds (JVM running for 3.548)
+2021-06-14 08:50:17.124 [TID: N/A] [Thread-8] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-14 08:50:17.292 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 22740 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:50:17.292 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:50:17.292 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:50:17.543 [TID: N/A] [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.tool.wxtoolproject.api]' package. Please check your configuration.
+2021-06-14 08:50:17.603 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:50:17.604 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:50:17.693 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+2021-06-14 08:50:17.729 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$2ac8b68e.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$2ac8b68e$$FastClassBySpringCGLIB$$d054b553.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$2ac8b68e.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+2021-06-14 08:50:21.146 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2021-06-14 08:50:29.084 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 18608 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:50:29.087 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:50:29.087 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:50:30.240 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:50:30.257 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:50:30.983 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:50:31.051 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:50:31.056 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:50:31.062 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:50:31.092 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:50:31.157 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.505 seconds (JVM running for 3.619)
+2021-06-14 08:50:35.984 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:50:36.139 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:52:27.211 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-14 08:52:27.218 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3492 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:52:27.218 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:52:27.218 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:52:28.443 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:52:28.462 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:52:29.177 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:52:29.242 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:52:29.247 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:52:29.252 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:52:29.280 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:52:29.339 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.57 seconds (JVM running for 3.898)
+2021-06-14 08:52:47.249 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:52:56.064 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:53:20.024 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-14 08:54:42.668 [TID: N/A] [Thread-8] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-14 08:54:42.675 [TID: N/A] [Thread-8] INFO  io.undertow.servlet -Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-06-14 08:54:42.854 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3492 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:54:42.855 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:54:42.855 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:54:43.245 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:54:43.245 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:54:43.439 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:54:43.447 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:54:43.475 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.667 seconds (JVM running for 138.035)
+2021-06-14 08:54:47.179 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-14 08:54:47.185 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 17268 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:54:47.186 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:54:47.186 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:54:48.442 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:54:48.463 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:54:49.298 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:54:49.365 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:54:49.370 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:54:49.376 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:54:49.411 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:54:49.482 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.768 seconds (JVM running for 3.816)
+2021-06-14 08:54:58.078 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:55:19.888 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 08:55:20.490 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 08:55:20.527 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:55:20.678 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:55:20.833 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 08:58:33.737 [TID: N/A] [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m13s135ms608µs800ns).
+2021-06-14 08:58:36.952 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-14 08:58:36.958 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21752 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 08:58:36.959 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 08:58:36.959 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 08:58:38.117 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 08:58:38.135 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 08:58:38.921 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 08:58:39.006 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 08:58:39.012 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 08:58:39.020 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 08:58:39.053 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 08:58:39.125 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.629 seconds (JVM running for 3.586)
+2021-06-14 08:59:17.793 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 08:59:28.013 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 08:59:28.656 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 08:59:28.692 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.open_id = ?
+2021-06-14 08:59:28.837 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 08:59:29.002 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 09:07:06.301 [TID: N/A] [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m37s541ms724µs500ns).
+2021-06-14 09:07:09.656 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-14 09:07:09.663 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 24496 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 09:07:09.664 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 09:07:09.664 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 09:07:10.758 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 09:07:10.775 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 09:07:11.516 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 09:07:11.576 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 09:07:11.580 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 09:07:11.585 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 09:07:11.615 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 09:07:11.686 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.471 seconds (JVM running for 3.414)
+2021-06-14 09:07:19.644 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 09:07:28.723 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 09:07:29.334 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 09:07:29.369 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.open_id = ?
+2021-06-14 09:07:29.514 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 09:07:29.670 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 09:07:38.864 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,nick_name = ? ,avatar_url = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 09:07:38.865 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String), 昊、(String), https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIEORPiacWXLaFhmr7OxA6rHleoG1kLCYSbGLXFKTIYzibal6gvKtMonCHuJOCkkHsuDZurfJBcMfJQ/132(String), 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 09:07:38.931 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 1
+2021-06-14 09:08:52.138 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.open_id = ?
+2021-06-14 09:08:52.138 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 09:08:52.172 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 09:08:52.173 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,nick_name = ? ,avatar_url = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 09:08:52.174 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String), 昊、(String), https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIEORPiacWXLaFhmr7OxA6rHleoG1kLCYSbGLXFKTIYzibal6gvKtMonCHuJOCkkHsuDZurfJBcMfJQ/132(String), 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 09:08:52.241 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 1
+2021-06-14 09:10:13.070 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==>  Preparing: SELECT * FROM wx_user wu WHERE wu.id = ?
+2021-06-14 09:10:13.071 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==> Parameters: 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:10:13.104 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -<==      Total: 1
+2021-06-14 09:10:53.777 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-14 09:10:53.785 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 4104 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-14 09:10:53.785 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-14 09:10:53.785 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-14 09:10:54.963 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-14 09:10:54.984 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-14 09:10:55.884 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-14 09:10:55.947 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-14 09:10:55.952 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-14 09:10:55.958 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-14 09:10:55.989 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-14 09:10:56.068 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.768 seconds (JVM running for 3.732)
+2021-06-14 09:11:10.757 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 09:11:10.791 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2021-06-14 09:11:11.222 [TID: N/A] [XNIO-1 task-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2021-06-14 09:11:11.228 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.id = ?
+2021-06-14 09:11:11.243 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==> Parameters: 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:11:11.296 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -<==      Total: 1
+2021-06-14 09:28:45.204 [TID: N/A] [XNIO-1 task-1] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4635080e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:28:45.234 [TID: N/A] [XNIO-1 task-1] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79233d73 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:28:50.239 [TID: N/A] [XNIO-1 task-1] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50aaba0c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:28:54.933 [TID: N/A] [XNIO-1 task-2] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3de2fbbf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:28:54.962 [TID: N/A] [XNIO-1 task-2] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39dd68db (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:28:55.242 [TID: N/A] [XNIO-1 task-1] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66152dd9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:28:55.276 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.id = ?
+2021-06-14 09:28:55.276 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==> Parameters: 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:28:55.311 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -<==      Total: 1
+2021-06-14 09:28:58.918 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.open_id = ?
+2021-06-14 09:28:58.919 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 09:28:58.953 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.wechatOpenIdIsExists -<==      Total: 1
+2021-06-14 09:28:58.967 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==>  Preparing: UPDATE wx_user SET open_id = ? ,nick_name = ? ,avatar_url = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? ,ctime = NOW() ,mobile = ? WHERE open_id = ?;
+2021-06-14 09:28:58.968 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -==> Parameters: oreHq4jFbX-hiXXFSEsqlqO01d5c(String), 昊、(String), https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIEORPiacWXLaFhmr7OxA6rHleoG1kLCYSbGLXFKTIYzibal6gvKtMonCHuJOCkkHsuDZurfJBcMfJQ/132(String), 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 17604500815(String), oreHq4jFbX-hiXXFSEsqlqO01d5c(String)
+2021-06-14 09:28:59.037 [TID: N/A] [XNIO-1 task-1] DEBUG c.t.w.a.u.d.U.updateByUserOpenId -<==    Updates: 1
+2021-06-14 09:28:59.970 [TID: N/A] [XNIO-1 task-2] WARN  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7cdff184 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-14 09:29:00.002 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.id = ?
+2021-06-14 09:29:00.003 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==> Parameters: 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:29:00.040 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -<==      Total: 1
+2021-06-14 09:29:02.555 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.id = ?
+2021-06-14 09:29:02.556 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==> Parameters: 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:29:02.593 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -<==      Total: 1
+2021-06-14 09:29:02.594 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.d.U.updateByUserId -==>  Preparing: UPDATE wx_user SET ctime = NOW() ,nick_name = ? ,avatar_url = ? ,gender = ? ,country = ? ,province = ? ,city = ? ,language = ? WHERE id = ?;
+2021-06-14 09:29:02.595 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.d.U.updateByUserId -==> Parameters: 昊、(String), https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIEORPiacWXLaFhmr7OxA6rHleoG1kLCYSbGLXFKTIYzibal6gvKtMonCHuJOCkkHsuDZurfJBcMfJQ/132(String), 1(Integer), China(String), Heilongjiang(String), Harbin(String), zh_CN(String), 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:29:02.660 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.d.U.updateByUserId -<==    Updates: 1
+2021-06-14 09:29:04.007 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==>  Preparing: SELECT u.id, u.open_id as openId, u.nick_name as nickName, u.avatar_url as avatarUrl, u.gender, u.country, u.province, u.city, u.`language`, u.ctime, u.mobile FROM wx_user AS u WHERE u.id = ?
+2021-06-14 09:29:04.008 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -==> Parameters: 4c7a653c-b5e2-4a3b-a233-be4b035002cb(String)
+2021-06-14 09:29:04.043 [TID: N/A] [XNIO-1 task-2] DEBUG c.t.w.a.u.dao.UserMapper.getUserById -<==      Total: 1

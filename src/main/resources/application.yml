@@ -1,0 +1,44 @@
+##############################---undertow 服务器支持https服务 ---###################################
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 443
+  servlet:
+    context-path: /tool
+  ssl:
+    enabled: true
+    key-store-password: 3ko76z725ib57wg
+    key-store: classpath:www.a-belief.top.jks
+    key-store-type: JKS
+condition:
+  http2https: true
+http:
+  port: 80
+
+##############################---spring 相关配置 ---###################################
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10000MB
+  profiles:
+    active: dev
+
+  ##############################---mybatis 相关配置 ---###################################
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-handlers-package: cn.release.common.handler
+  configuration:
+    map-underscore-to-camel-case=true: true
+
+  ##############################---彩色日志 相关配置 ---###################################
+
+logging:
+  file: ${log.file}
+  level:
+    root: info
+    com.tool.wxtoolproject: ${log.level}
+  config: classpath:logback-spring.xml
+
+  pattern:
+    console: '%d{yyyy-MMM-dd HH:mm:ss} %-5level [%thread] %logger{15}.%method - %msg%n'

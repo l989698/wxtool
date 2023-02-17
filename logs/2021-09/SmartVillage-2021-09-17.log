@@ -1,0 +1,906 @@
+2021-09-17 14:23:51.541 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 22164 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:23:51.542 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:23:51.542 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:23:53.753 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:23:53.753 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:23:53.754 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:23:53.967 [TID: N/A] [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient -[Producer clientId=producer-1] Connection to node -1 (/82.156.0.45:9092) could not be established. Broker may not be available.
+2021-09-17 14:23:51.613 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:23:53.967 [TID: N/A] [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient -[Producer clientId=producer-1] Bootstrap broker 82.156.0.45:9092 (id: -1 rack: null) disconnected
+2021-09-17 14:23:55.428 [TID: N/A] [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:24:56.186 [TID: N/A] [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient -[Producer clientId=producer-1] Connection to node -1 (/82.156.0.45:9092) could not be established. Broker may not be available.
+2021-09-17 14:32:42.545 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 16716 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:32:42.547 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:32:42.547 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:32:42.610 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:32:44.842 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:32:44.843 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:32:44.843 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:32:46.530 [TID: N/A] [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:32:46.579 [TID: N/A] [main] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:583)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:20)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/support/RetryTemplate
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.support.RetryTemplate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2021-09-17 14:33:58.289 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21992 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:33:58.291 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:33:58.291 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:33:58.346 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:33:59.572 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:33:59.572 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:33:59.573 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:34:00.538 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:34:00.569 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/support/RetryTemplate
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.support.RetryTemplate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:37:25.859 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 20332 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:37:25.861 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:37:25.861 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:37:25.911 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:37:27.078 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:37:27.078 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:37:27.079 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:37:27.966 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:37:27.999 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/RecoveryCallback
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.RecoveryCallback
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:37:54.903 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 13480 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:37:54.906 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:37:54.906 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:37:54.959 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:37:56.158 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:37:56.158 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:37:56.159 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:37:57.175 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:37:57.210 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/support/RetryTemplate
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.support.RetryTemplate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:38:28.030 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 9472 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:38:28.032 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:38:28.032 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:38:28.084 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:38:29.243 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:38:29.244 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:38:29.244 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:38:30.181 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:38:30.216 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/RecoveryCallback
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.RecoveryCallback
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:39:48.556 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21192 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:39:48.558 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:39:48.558 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:39:48.611 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:39:49.761 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:39:49.762 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:39:49.762 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:39:50.739 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:39:50.777 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/support/RetryTemplate
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.support.RetryTemplate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:40:58.458 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 6216 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:40:58.461 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:40:58.461 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:40:58.528 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:40:59.919 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:40:59.920 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:40:59.920 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:41:01.071 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:41:01.125 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/support/RetryTemplate
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.support.RetryTemplate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:41:24.523 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 17112 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:41:24.526 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:41:24.526 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:41:24.595 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:41:25.888 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:41:25.888 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:41:25.889 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:41:26.823 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:41:26.858 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.config.AbstractKafkaListenerContainerFactory] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/retry/support/RetryTemplate
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.retry.support.RetryTemplate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 common frames omitted
+2021-09-17 14:42:46.863 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 1516 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:42:46.865 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:42:46.866 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:42:48.075 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:42:48.076 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:42:48.076 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:42:49.029 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:42:50.422 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.99 seconds (JVM running for 6.049)
+2021-09-17 14:43:17.404 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 1516 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:43:17.404 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:43:17.404 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:43:17.837 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:43:17.837 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:43:17.838 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:43:18.148 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:43:18.485 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.166 seconds (JVM running for 34.112)
+2021-09-17 14:43:28.423 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 1516 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:43:28.424 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:43:28.424 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:43:28.775 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:43:28.776 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:43:28.776 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:43:29.008 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:43:29.149 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.774 seconds (JVM running for 44.775)
+2021-09-17 14:43:33.268 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 1516 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:43:33.268 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:43:33.268 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:43:33.601 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:43:33.601 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 14:43:33.602 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 14:43:33.821 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:43:33.943 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.722 seconds (JVM running for 49.57)
+2021-09-17 14:43:42.987 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 1516 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:43:42.988 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:43:42.988 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:43:43.139 [TID: N/A] [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.tool.wxtoolproject.api.user.dao]' package. Please check your configuration.
+2021-09-17 14:43:43.414 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+2021-09-17 14:43:43.438 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8bb6778b.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8bb6778b$$FastClassBySpringCGLIB$$729d6df6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8bb6778b.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\wxToolProject\target\classes\mapper\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.tool.wxtoolproject.api.user.entity.WxUser'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.tool.wxtoolproject.api.user.entity.WxUser
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+2021-09-17 14:53:22.989 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 18556 (started by liuha in D:\project\wxToolProject)
+2021-09-17 14:53:22.991 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:53:22.992 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-09-17 14:53:23.258 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:53:28.506 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:53:28.778 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 6.436 seconds (JVM running for 7.834)
+2021-09-17 14:53:37.897 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21960 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:53:37.900 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:53:37.900 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:53:37.974 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:53:38.156 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tool.wxtoolproject.WxToolProjectApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/tool/wxtoolproject/api/common/config/BaseConfig.class] cannot be opened because it does not exist
+2021-09-17 14:53:38.508 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tool.wxtoolproject.WxToolProjectApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/tool/wxtoolproject/api/common/config/BaseConfig.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [com/tool/wxtoolproject/api/common/config/BaseConfig.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:187)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:1010)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:341)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:304)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 18 common frames omitted
+2021-09-17 14:56:47.788 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 22352 (started by liuha in D:\project\wxToolProject)
+2021-09-17 14:56:47.789 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:56:47.790 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-09-17 14:56:47.975 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:56:52.214 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:56:52.499 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.218 seconds (JVM running for 6.346)
+2021-09-17 14:57:22.773 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 6844 (started by liuha in D:\project\wxToolProject)
+2021-09-17 14:57:22.775 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:57:22.775 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-09-17 14:57:22.957 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:57:27.036 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:57:27.267 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 5.032 seconds (JVM running for 6.029)
+2021-09-17 14:57:33.433 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 5352 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 14:57:33.435 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:57:33.435 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 14:57:33.501 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:57:35.227 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.kafka.config.internalKafkaListenerAnnotationProcessor': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2021-09-17 14:57:35.284 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.kafka.config.internalKafkaListenerAnnotationProcessor': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/messaging/handler/annotation/support/MessageHandlerMethodFactory
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.messaging.handler.annotation.support.MessageHandlerMethodFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 common frames omitted
+2021-09-17 14:59:23.366 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 10392 (started by liuha in D:\project\wxToolProject)
+2021-09-17 14:59:23.367 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 14:59:23.367 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-09-17 14:59:23.526 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 14:59:27.150 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 14:59:28.520 [TID: N/A] [main] WARN  o.s.w.c.s.GenericWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+2021-09-17 14:59:28.552 [TID: N/A] [main] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.checkGroupId(AbstractMessageListenerContainer.java:464)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:400)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:318)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:263)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 80 common frames omitted
+2021-09-17 14:59:28.557 [TID: N/A] [main] ERROR o.s.test.context.TestContextManager -Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f1da57d] to prepare test instance [com.tool.wxtoolproject.WxToolProjectApplicationTests@357c9bd9]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.checkGroupId(AbstractMessageListenerContainer.java:464)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:400)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:318)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:263)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 80 common frames omitted
+2021-09-17 15:11:24.689 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 24644 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 15:11:24.692 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 15:11:24.693 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 15:11:24.749 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 15:11:25.939 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 15:11:25.940 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 15:11:25.940 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 15:11:27.048 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 15:11:27.090 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+2021-09-17 15:11:27.125 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.checkGroupId(AbstractMessageListenerContainer.java:464)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:400)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:318)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:263)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2021-09-17 15:21:37.542 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 23236 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 15:21:37.546 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 15:21:37.546 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 15:21:37.655 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 15:21:39.477 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 15:21:39.477 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 15:21:39.478 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 15:21:41.064 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 15:21:42.805 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 6.103 seconds (JVM running for 9.001)
+2021-09-17 15:37:54.154 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 24612 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 15:37:54.157 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 15:37:54.157 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 15:37:54.207 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 15:37:55.724 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 15:37:55.725 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 15:37:55.725 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 15:37:56.870 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 15:37:58.364 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.662 seconds (JVM running for 6.986)
+2021-09-17 18:31:25.778 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 27592 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-09-17 18:31:25.780 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-09-17 18:31:25.780 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-09-17 18:31:25.837 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 18:31:27.833 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 18:31:27.833 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2021-09-17 18:31:27.834 [TID: N/A] [main] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-17 18:31:29.480 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-09-17 18:31:29.688 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.899 seconds (JVM running for 21.999)

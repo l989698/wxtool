@@ -1,0 +1,13 @@
+2022-07-13 09:34:27.343 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 27464 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2022-07-13 09:34:27.347 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-07-13 09:34:27.347 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2022-07-13 09:34:28.926 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-13 09:34:28.926 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2022-07-13 09:34:28.927 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-07-13 09:34:30.242 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-07-13 09:34:31.603 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.876 seconds (JVM running for 7.739)
+2022-07-13 09:35:43.050 [TID: N/A] [https-jsse-nio-443-exec-4] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2022-07-13 09:36:21.931 [TID: N/A] [https-jsse-nio-443-exec-9] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2022-07-13 13:34:02.434 [TID: N/A] [https-jsse-nio-443-exec-4] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2022-07-13 13:34:58.998 [TID: N/A] [https-jsse-nio-443-exec-10] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2022-07-13 13:51:27.352 [TID: N/A] [https-jsse-nio-443-exec-5] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}

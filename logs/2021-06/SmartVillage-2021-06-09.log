@@ -1,0 +1,6 @@
+2021-06-09 21:29:51.448 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Starting WxToolProjectApplicationTests using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 13080 (started by liuha in D:\project\wxToolProject)
+2021-06-09 21:29:51.449 [TID: N/A] [main] DEBUG c.t.w.WxToolProjectApplicationTests -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-09 21:29:51.449 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -The following profiles are active: dev
+2021-06-09 21:29:51.451 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-09 21:29:54.432 [TID: N/A] [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-09 21:29:54.539 [TID: N/A] [main] INFO  c.t.w.WxToolProjectApplicationTests -Started WxToolProjectApplicationTests in 3.498 seconds (JVM running for 4.397)

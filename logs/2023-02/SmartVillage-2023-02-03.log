@@ -1,0 +1,9 @@
+2023-02-03 08:56:49.971 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on 刘昊岩的电脑 with PID 17424 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2023-02-03 08:56:49.973 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2023-02-03 08:56:49.973 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2023-02-03 08:56:50.039 [TID: N/A] [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-03 08:56:51.303 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2023-02-03 08:56:51.304 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -Code archive: D:\tool\develop\Config\apache-maven\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar
+2023-02-03 08:56:51.304 [TID: N/A] [restartedMain] DEBUG c.t.w.api.sys.config.HttpsConfig$1 -None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2023-02-03 08:56:53.296 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2023-02-03 08:56:53.366 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.88 seconds (JVM running for 5.672)

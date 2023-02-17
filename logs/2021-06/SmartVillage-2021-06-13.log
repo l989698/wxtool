@@ -1,0 +1,313 @@
+2021-06-13 20:07:29.497 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:07:29.508 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 512 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:07:29.515 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:07:29.515 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:07:30.901 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:07:30.921 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:07:31.139 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imgProcessController': Unsatisfied dependency expressed through field 'imgProcesssService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.tool.wxtoolproject.api.imgProcess.service.ImgProcesssService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-13 20:07:31.214 [TID: N/A] [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field imgProcesssService in com.tool.wxtoolproject.api.imgProcess.controller.ImgProcessController required a bean of type 'com.tool.wxtoolproject.api.imgProcess.service.ImgProcesssService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tool.wxtoolproject.api.imgProcess.service.ImgProcesssService' in your configuration.
+
+2021-06-13 20:08:02.960 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:08:02.973 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 25316 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:08:02.982 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:08:02.982 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:08:04.433 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:08:04.451 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:08:05.315 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:08:05.374 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:08:05.380 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:08:05.385 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:08:05.416 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:08:05.489 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.11 seconds (JVM running for 4.486)
+2021-06-13 20:08:19.645 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:08:19.727 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------418129857692517953403361;charset=UTF-8' not supported]
+2021-06-13 20:08:44.744 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------839436500439970688539413;charset=UTF-8' not supported]
+2021-06-13 20:08:51.826 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:08:51.839 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 25596 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:08:51.839 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:08:51.839 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:08:53.745 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:08:53.774 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:08:55.111 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:08:55.204 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:08:55.212 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:08:55.221 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:08:55.273 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:08:55.371 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.27 seconds (JVM running for 6.228)
+2021-06-13 20:09:01.787 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:09:01.874 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------319898811586391631179881;charset=UTF-8' not supported]
+2021-06-13 20:11:00.784 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:11:00.796 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21768 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:11:00.796 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:11:00.796 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:11:02.563 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:11:02.585 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:11:03.492 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:11:03.569 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:11:03.576 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:11:03.582 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:11:03.622 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:11:03.709 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.665 seconds (JVM running for 5.173)
+2021-06-13 20:11:06.343 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:11:06.426 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------937035282460361455250216;charset=UTF-8' not supported]
+2021-06-13 20:11:07.680 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------460246373599508158029085;charset=UTF-8' not supported]
+2021-06-13 20:12:47.518 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------422541953508764163399504;charset=UTF-8' not supported]
+2021-06-13 20:13:06.870 [TID: N/A] [Thread-8] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-13 20:13:06.875 [TID: N/A] [Thread-8] INFO  io.undertow.servlet -Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-06-13 20:13:07.088 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21768 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:13:07.089 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:13:07.089 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:13:07.712 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:13:07.713 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:13:08.050 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:13:08.062 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:13:08.102 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 1.082 seconds (JVM running for 129.566)
+2021-06-13 20:13:09.533 [TID: N/A] [Thread-10] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-13 20:13:09.884 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 21768 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:13:09.884 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:13:09.884 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:13:10.370 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:13:10.372 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:13:10.653 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:13:10.664 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:13:10.703 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 0.879 seconds (JVM running for 132.168)
+2021-06-13 20:13:14.069 [TID: N/A] [XNIO-3 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:13:14.202 [TID: N/A] [XNIO-3 task-1] DEBUG c.t.w.api.common.message.JsonView -View name 'jsonView', model {error={"body":{},"code":"404","msg":"请求UTL错误，或请求方式不正确"}}
+2021-06-13 20:18:13.475 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:18:13.487 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 7560 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:18:13.488 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:18:13.488 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:18:15.429 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:18:15.459 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:18:16.466 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:18:16.547 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:18:16.553 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:18:16.560 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:18:16.597 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:18:16.685 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.952 seconds (JVM running for 5.442)
+2021-06-13 20:19:00.784 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:19:00.872 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------623384408728528479276721;charset=UTF-8' not supported]
+2021-06-13 20:20:21.456 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------968092416496706101314441;charset=UTF-8' not supported]
+2021-06-13 20:21:05.064 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------437211877669953025576662;charset=UTF-8' not supported]
+2021-06-13 20:22:13.044 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------449460930027361492986468;charset=UTF-8' not supported]
+2021-06-13 20:22:14.536 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------245740992006348465772983;charset=UTF-8' not supported]
+2021-06-13 20:22:15.332 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------666836098725495777578177;charset=UTF-8' not supported]
+2021-06-13 20:22:16.890 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------169899288388917310155795;charset=UTF-8' not supported]
+2021-06-13 20:24:40.047 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------758061260824055922749262;charset=UTF-8' not supported]
+2021-06-13 20:24:41.222 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------190053980430895991197470;charset=UTF-8' not supported]
+2021-06-13 20:26:10.303 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------096848295262662889614017;charset=UTF-8' not supported]
+2021-06-13 20:26:45.643 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------226438462737343082586522;charset=UTF-8' not supported]
+2021-06-13 20:27:29.903 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------728062731462654898533253;charset=UTF-8' not supported]
+2021-06-13 20:27:45.406 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------133672702641001283661698;charset=UTF-8' not supported]
+2021-06-13 20:28:25.287 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------565956675512383056180507;charset=UTF-8' not supported]
+2021-06-13 20:30:20.116 [TID: N/A] [XNIO-1 task-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------496417139016646007185451;charset=UTF-8' not supported]
+2021-06-13 20:31:13.642 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------610723600991525794097267;charset=UTF-8' not supported]
+2021-06-13 20:33:41.407 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:33:41.423 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 11540 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:33:41.423 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:33:41.423 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:33:43.428 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:33:43.456 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:33:44.460 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:33:44.542 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:33:44.549 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:33:44.556 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:33:44.597 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:33:44.690 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.999 seconds (JVM running for 5.479)
+2021-06-13 20:33:55.004 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:34:47.717 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:34:47.730 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 6736 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:34:47.730 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:34:47.730 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:34:49.673 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:34:49.699 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:34:50.666 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:34:50.752 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:34:50.758 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:34:50.764 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:34:50.807 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:34:50.898 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.915 seconds (JVM running for 5.419)
+2021-06-13 20:35:57.533 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:40:00.458 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:40:00.472 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 18244 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:40:00.472 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:40:00.473 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:40:02.161 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:40:02.184 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:40:03.103 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:40:03.179 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:40:03.184 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:40:03.191 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:40:03.229 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:40:03.305 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.582 seconds (JVM running for 5.137)
+2021-06-13 20:41:52.763 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:41:52.776 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3564 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:41:52.776 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:41:52.776 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:41:54.431 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:41:54.452 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:41:55.538 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:41:55.624 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:41:55.630 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:41:55.636 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:41:55.675 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:41:55.766 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.802 seconds (JVM running for 5.58)
+2021-06-13 20:42:05.887 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:42:05.965 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'param' for method parameter type ImgProcessParam is not present]
+2021-06-13 20:42:14.991 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'param' for method parameter type ImgProcessParam is not present]
+2021-06-13 20:43:16.517 [TID: N/A] [Thread-8] INFO  io.undertow -stopping server: Undertow - 2.2.7.Final
+2021-06-13 20:43:16.524 [TID: N/A] [Thread-8] INFO  io.undertow.servlet -Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-06-13 20:43:16.751 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3564 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:43:16.752 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:43:16.752 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:43:17.351 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:43:17.353 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:43:17.400 [TID: N/A] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imgProcessController': Unsatisfied dependency expressed through field 'imgProcesssService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.tool.wxtoolproject.api.imgProcess.service.ImgProcesssService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-13 20:43:17.441 [TID: N/A] [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field imgProcesssService in com.tool.wxtoolproject.api.imgProcess.controller.ImgProcessController required a bean of type 'com.tool.wxtoolproject.api.imgProcess.service.ImgProcesssService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tool.wxtoolproject.api.imgProcess.service.ImgProcesssService' in your configuration.
+
+2021-06-13 20:43:19.055 [TID: N/A] [restartedMain] ERROR o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:373)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.tool.wxtoolproject.WxToolProjectApplication.main(WxToolProjectApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in com.github.danielwegener.logback.kafka.KafkaAppender[kafka] - error creating producer org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 23 common frames omitted
+2021-06-13 20:43:56.273 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:43:56.296 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 15152 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:43:56.297 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:43:56.297 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:43:58.159 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:43:58.183 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:43:59.155 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:43:59.233 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:43:59.240 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:43:59.249 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:43:59.288 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:43:59.378 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.844 seconds (JVM running for 5.336)
+2021-06-13 20:44:05.261 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:44:05.335 [TID: N/A] [XNIO-1 task-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'param' for method parameter type ImgProcessParam is not present]
+2021-06-13 20:44:30.217 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:44:30.229 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 20876 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:44:30.229 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:44:30.230 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:44:32.113 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:44:32.143 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:44:33.134 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:44:33.211 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:44:33.219 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:44:33.229 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:44:33.268 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:44:33.354 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.854 seconds (JVM running for 5.357)
+2021-06-13 20:45:20.228 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:49:31.702 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:49:31.714 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 17700 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:49:31.714 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:49:31.715 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:49:33.395 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:49:33.418 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:49:34.383 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:49:34.461 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:49:34.466 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:49:34.474 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:49:34.512 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:49:34.601 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.633 seconds (JVM running for 5.141)
+2021-06-13 20:49:44.634 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:53:48.280 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:53:48.293 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 7320 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:53:48.294 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:53:48.294 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:53:50.198 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:53:50.224 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:53:51.157 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:53:51.232 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:53:51.238 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:53:51.246 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:53:51.289 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:53:51.402 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.855 seconds (JVM running for 5.364)
+2021-06-13 20:54:05.628 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 20:56:22.167 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 20:56:22.179 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 18972 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 20:56:22.180 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 20:56:22.180 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 20:56:24.123 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 20:56:24.153 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 20:56:25.384 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 20:56:25.482 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 20:56:25.489 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 20:56:25.498 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 20:56:25.548 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 20:56:25.659 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 4.222 seconds (JVM running for 5.848)
+2021-06-13 20:56:37.581 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 21:06:40.801 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-13 21:06:40.812 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 3440 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-13 21:06:40.812 [TID: N/A] [restartedMain] DEBUG c.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-13 21:06:40.812 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-13 21:06:42.270 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-13 21:06:42.294 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-13 21:06:43.261 [TID: N/A] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration -spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-06-13 21:06:43.336 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-13 21:06:43.342 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-13 21:06:43.349 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-13 21:06:43.387 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-13 21:06:43.462 [TID: N/A] [restartedMain] INFO  c.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 3.326 seconds (JVM running for 4.813)
+2021-06-13 21:06:46.537 [TID: N/A] [XNIO-1 task-1] INFO  io.undertow.servlet -Initializing Spring DispatcherServlet 'dispatcherServlet'

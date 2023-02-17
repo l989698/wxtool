@@ -1,0 +1,15 @@
+2021-06-03 15:24:54.640 [TID: N/A] [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.0.Final
+2021-06-03 15:24:54.650 [TID: N/A] [restartedMain] INFO  c.l.t.w.WxToolProjectApplication -Starting WxToolProjectApplication using Java 1.8.0_152 on LAPTOP-GIMKTGR8 with PID 16204 (D:\project\wxToolProject\target\classes started by liuha in D:\project\wxToolProject)
+2021-06-03 15:24:54.650 [TID: N/A] [restartedMain] DEBUG c.l.t.w.WxToolProjectApplication -Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 15:24:54.650 [TID: N/A] [restartedMain] INFO  c.l.t.w.WxToolProjectApplication -The following profiles are active: dev
+2021-06-03 15:24:55.956 [TID: N/A] [restartedMain] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-03 15:24:55.983 [TID: N/A] [restartedMain] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2021-06-03 15:24:56.694 [TID: N/A] [restartedMain] INFO  io.undertow -starting server: Undertow - 2.2.7.Final
+2021-06-03 15:24:56.700 [TID: N/A] [restartedMain] INFO  org.xnio -XNIO version 3.8.0.Final
+2021-06-03 15:24:56.705 [TID: N/A] [restartedMain] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.8.0.Final
+2021-06-03 15:24:56.746 [TID: N/A] [restartedMain] INFO  org.jboss.threads -JBoss Threads version 3.1.0.Final
+2021-06-03 15:24:56.807 [TID: N/A] [restartedMain] INFO  c.l.t.w.WxToolProjectApplication -Started WxToolProjectApplication in 2.573 seconds (JVM running for 3.442)
+2021-06-03 15:24:56.810 [TID: N/A] [restartedMain] INFO  c.l.t.w.WxToolProjectApplication -
+############################################################### 
+# 系统启动完成 # 
+###############################################################

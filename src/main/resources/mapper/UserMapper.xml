@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tool.wxtoolproject.api.user.dao.UserMapper">
+
+    <select id="query" resultType="com.tool.wxtoolproject.api.user.entity.WxUser">
+        SELECT *
+        FROM wx_user
+    </select>
+    <!--根据用户id获取用户信息 -->
+    <select id="getUserById" parameterType="java.lang.String"
+            resultType="com.tool.wxtoolproject.api.user.vo.MyUserInfoVo">
+        SELECT
+            u.id,
+            u.open_id as openId,
+            u.nick_name as nickName,
+            u.avatar_url as avatarUrl,
+            u.gender,
+            u.country,
+            u.province,
+            u.city,
+            u.`language`,
+            u.ctime,
+            u.mobile
+        FROM
+            wx_user AS u
+        WHERE u.id = #{userId}
+    </select>
+    <!--根据用户openId获取用户信息 -->
+    <select id="wechatOpenIdIsExists" parameterType="java.lang.String"
+            resultType="com.tool.wxtoolproject.api.user.entity.WxUser">
+        SELECT
+            u.id,
+            u.open_id as openId,
+            u.nick_name as nickName,
+            u.avatar_url as avatarUrl,
+            u.gender,
+            u.country,
+            u.province,
+            u.city,
+            u.`language`,
+            u.ctime,
+            u.mobile
+        FROM
+            wx_user AS u
+        WHERE u.open_id = #{openId}
+    </select>
+    <!--第一次登录时添加用户基本信息 -->
+    <insert id="insertUser" parameterType="com.tool.wxtoolproject.api.user.entity.WxUser">
+        INSERT INTO wx_user ( id
+                            , open_id
+                            , ctime)
+        VALUES ( #{id}
+               , #{openId}
+               , NOW());
+    </insert>
+    <!-- 注册过的用户直接更新最后登录时间 -->
+    <update id="updateByUserOpenId" parameterType="com.tool.wxtoolproject.api.user.entity.WxUser">
+        UPDATE wx_user
+        SET open_id = #{openId}
+        <if test="nickName != null and nickName != '' ">
+            ,nick_name = #{nickName}
+        </if>
+        <if test="avatarUrl != null and avatarUrl != '' ">
+            ,avatar_url = #{avatarUrl}
+        </if>
+        <if test="gender != null and gender != '' ">
+            ,gender = #{gender}
+        </if>
+        <if test="country != null and country != '' ">
+            ,country = #{country}
+        </if>
+        <if test="province != null and province != '' ">
+            ,province = #{province}
+        </if>
+        <if test="city != null and city != '' ">
+            ,city = #{city}
+        </if>
+        <if test="language != null and language != '' ">
+            ,language = #{language}
+        </if>
+        ,ctime = NOW()
+        <if test="mobile != null and mobile != '' ">
+            ,mobile = #{mobile}
+        </if>
+        WHERE open_id = #{openId};
+    </update>
+    <!--授权后添加用户信息 -->
+    <update id="updateByUserId" parameterType="com.tool.wxtoolproject.api.user.entity.WxUser">
+        UPDATE wx_user
+        SET  ctime = NOW()
+        <if test="nickName != null and nickName != '' ">
+            ,nick_name = #{nickName}
+        </if>
+        <if test="avatarUrl != null and avatarUrl != '' ">
+            ,avatar_url = #{avatarUrl}
+        </if>
+        <if test="gender != null and gender != '' ">
+            ,gender = #{gender}
+        </if>
+        <if test="country != null and country != '' ">
+            ,country = #{country}
+        </if>
+        <if test="province != null and province != '' ">
+            ,province = #{province}
+        </if>
+        <if test="city != null and city != '' ">
+            ,city = #{city}
+        </if>
+        <if test="language != null and language != '' ">
+            ,language = #{language}
+        </if>
+        <if test="mobile != null and mobile != '' ">
+            ,mobile = #{mobile}
+        </if>
+        WHERE id = #{userId};
+    </update>
+</mapper>
